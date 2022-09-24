@@ -32,5 +32,10 @@ Deactivate the virtualenv:
 $ deactivate
 ```
 
+Export requirements.txt:
+```bash
+$ python3 -m pip freeze >> requirements.txt
+```
+
 
 [About Virtualenv](https://virtualenv.pypa.io/en/stable/)
