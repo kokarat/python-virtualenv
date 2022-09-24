@@ -37,5 +37,10 @@ Export requirements.txt:
 $ python3 -m pip freeze >> requirements.txt
 ```
 
+Install dependency form requirements.txt:
+```bash
+$ python3 -m pip install -r requirements.txt
+```
+
 
 [About Virtualenv](https://virtualenv.pypa.io/en/stable/)
